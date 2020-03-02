@@ -1,2 +1,6 @@
+# Rust
 Rust/*/Cargo.lock
 Rust/*/target/
+
+# Kotlin
+Kotlin/compiled/*.jar
