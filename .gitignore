@@ -4,3 +4,13 @@ Rust/*/target/
 
 # Kotlin
 Kotlin/compiled/*.jar
+
+# C
+C/*/*
+
+# C Whitelist
+!C/*/makefile
+!C/*/*.c
+!C/*/*.h
+!C/*/*.cpp
+!C/*/*.hpp
