@@ -1,4 +1,4 @@
 CC=gcc
 
 all: window.o
-	$(CC) wwindow.c -o window
+	$(CC) window.c -o window
