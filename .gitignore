@@ -1,3 +1,6 @@
+# Python
+Python/*/venv/
+
 # Rust
 Rust/*/Cargo.lock
 Rust/*/target/
