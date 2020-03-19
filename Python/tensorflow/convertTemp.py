@@ -30,16 +30,16 @@ model = tf.keras.Sequential([
 print('Compiling model...')
 model.compile(
     loss='mean_squared_error',
-    optimizer=tf.keras.optimizers.Adam(0.1)
+    optimizer=tf.keras.optimizers.Adam(0.15)
 )
-
+45
 # Train model
-print('Training model...\n')
-history = model.fit(fahr_t, cels_t, epochs=500, verbose=True)
+print('Training model...')
+history = model.fit(fahr_t, cels_t, epochs=500, verbose=False)
 
 # Predict value and ask user if they want to see training results
 res = model.predict([temp])
-print('\nI think your temperture in celsius is {}!'.format(res))
+print('I think your temperture in celsius is {}!'.format(res))
 while True:
     tdisp = input('Would you like to see my training stats? Y/N: ').lower()
     if tdisp == 'y':
