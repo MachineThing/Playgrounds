@@ -32,7 +32,7 @@ model.compile(
     loss='mean_squared_error',
     optimizer=tf.keras.optimizers.Adam(0.15)
 )
-45
+
 # Train model
 print('Training model...')
 history = model.fit(fahr_t, cels_t, epochs=500, verbose=False)
