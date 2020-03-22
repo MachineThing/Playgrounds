@@ -1,3 +1,4 @@
 tensorflow-gpu
 numpy
 matplotlib
+tensorflow_datasets
