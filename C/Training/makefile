@@ -8,4 +8,4 @@ EXE=$(patsubst progs/%.c,%,$(SRC))
 all:$(EXE)
 # Compile
 %: progs/%.c
-	$(CC) $(CFLAGS) $< -o $@
+	$(CC) $< -o $@ $(CFLAGS)
