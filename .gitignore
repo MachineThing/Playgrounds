@@ -10,7 +10,6 @@ Kotlin/compiled/*.jar
 
 # C
 C/*/*
-C/Training/compiled/*
 
 # C Whitelist
 !C/*/makefile
@@ -18,5 +17,4 @@ C/Training/compiled/*
 !C/*/*.h
 !C/*/*.cpp
 !C/*/*.hpp
-!C/Training/compiled/README.md
-!C/Training/compiled/
+!C/Training/progs/

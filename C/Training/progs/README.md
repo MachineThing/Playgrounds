@@ -1,2 +1,2 @@
 # Playgrounds/C/Training/compiled
-Where my compiled programs go to
+Where my programs are at
