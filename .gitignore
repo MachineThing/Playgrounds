@@ -15,6 +15,17 @@ C/*/*
 !C/*/makefile
 !C/*/*.c
 !C/*/*.h
-!C/*/*.cpp
-!C/*/*.hpp
+!Cpp/*/*.cpp
+!Cpp/*/*.hpp
 !C/Training/progs/
+
+# C++
+Cpp/*/*
+
+# C++ Whitelist
+!Cpp/*/makefile
+!Cpp/*/*.c
+!Cpp/*/*.h
+!Cpp/*/*.cpp
+!Cpp/*/*.hpp
+!Cpp/Training/progs/
